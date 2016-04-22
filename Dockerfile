@@ -1,5 +1,5 @@
 # vim:set ft=dockerfile:
-FROM cassandra:3.3
+FROM cassandra:2.2
 
 ENV GOSU_VERSION 1.7
 RUN apt-get update && apt-get install -y dnsutils --no-install-recommends \
